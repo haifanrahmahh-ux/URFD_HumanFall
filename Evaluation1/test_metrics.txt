@@ -1,0 +1,17 @@
+=== EVALUATION RESULTS ===
+Classification Loss (CE): 0.459803
+Forecast MSE           : 0.010197
+MPJPE                  : 32.7066
+MPJVE                  : 4.3430
+Frame-wise Accuracy    : 0.8700
+
+=== CLASSIFICATION REPORT ===
+              precision    recall  f1-score   support
+
+         ADL     0.9586    0.9039    0.9305      4070
+     FALLING     0.5870    0.8341    0.6891      1043
+      FALLEN     0.9390    0.7956    0.8614      1355
+
+    accuracy                         0.8700      6468
+   macro avg     0.8282    0.8445    0.8270      6468
+weighted avg     0.8946    0.8700    0.8771      6468
